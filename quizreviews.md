@@ -93,3 +93,79 @@ System.out.println(a[1/0]);
 20. True or False: A finally block will execute regardless of whether an exception is caught.
 - TRUE
 ---
+# JAVA QUIZ #
+1. The class at the top of the exception classes hierarchy is called
+- Throwable
+---
+2. Which is true about the Object class?
+- It is directly or indirectly the superclass of all Java classes.
+---
+3. Which is true about the @Override annotation?
+- It tells the compiler that the method is intended to override an inherited method.
+---
+4. Java can be run on any machine that has a JVM.
+- TRUE
+---
+5. What variable scope is x declared in?
+```
+public class Printer {
+
+	String x;
+	
+	public Printer(x) {
+		this.x = x;
+	}
+
+	public void printAString(String y) {
+		System.out.println(y);
+	}
+
+	public void printHello() {
+		System.out.println("Hello");
+	}
+}
+```
+- Instance/Object scope.
+---
+6. Which is true about Java annotations?
+- Annotations always start with the @ symbol.
+- Annotations provide metadata about the code to the JVM.
+- Annotations have certain restrictions on where you can place each one. 
+---
+7. If you put an @Override annotation above an inherited method, you must provide new implementation for that method.
+- TRUE
+---
+8. CheckedException and RuntimeException are two classes that inherit from the Exception class.
+- FALSE (CheckedException is not an exception in Java.) 
+---
+9. Which keyword is acceptable to put in front of a parameter variable in a method declaration?
+1
+---
+10. A method must have at least 1 parameter to compile correctly.
+--- 
+11. Why do we need wrapper classes in Java?
+---
+12. A List in Java allows for ordered access of its elements
+---
+13. What are some methods that we can use on a List in Java?
+--- 
+14. Which one is the correct description about a list in Java?
+--- 
+15. Which method is available in the Object Class?
+---
+16. How many Objects are created?
+---
+17. The String Pool is stored in the Java stack
+--- 
+18. What is stored in the Java stack?
+---
+19. What does NOT belong in the Java Heap?
+- Methods. (Methods are stored on the Java Stack)
+--- 
+20. What is not a Java Access Modifier?
+- Package. (A Java package is like a folder in a computer, it can hold anything from images to videos as well.)
+---
+
+
+
+
